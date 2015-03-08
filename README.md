@@ -1,5 +1,5 @@
 # MyProject
-Balanced	Brackets
+<h1>Balanced	Brackets</h1>
 
 Given a string consisting entirely of the characters ()[]{}, determine if it is "balanced". 
 
