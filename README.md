@@ -22,11 +22,11 @@ The input to this problem consists of a string of n comma-separated values, each
 being an integer or a string. The required output is n consecutive lines, where line i
 
 contains the ith value of the input.
-</P
+</P>
 <P>
 NOTICE – string may contain commas (See Input 2 and 3 below).
 </P>
-<P>
+
 Input 1
 
 2,6,3,2,5
@@ -34,8 +34,7 @@ Input 1
 Output 1
 
 (...CSV Parsing continued)
-</P>
-<P>
+
 Input 2
 
 "pears","apples","walnuts","grapes","cheese,cake"
@@ -51,8 +50,7 @@ Output 2
 "grapes"
 
 "cheese,cake"
-</P>
-<P>
+
 Input 3
 
 1,"Que?","Kay?",2,"Si.","Sea? Kay, sea?","No, no, no. Que... 
@@ -84,7 +82,7 @@ Output 3
 "Yes!"
 
 "comma,comma, comma , :)"
-</P>
+
 <h1>Anagram Detection</h1>
 <P>
 You are given two strings, a ‘parent’ string and a ‘query’ string respectively. Your task is 
@@ -99,7 +97,7 @@ massively improve the efficiency of your solution. The optimal solution runs alm
 
 instantly even for extremely large (1 million+ characters) parent and query strings.
 </p>
-<p>
+
 Input 1
 
 AdnBndAndBdaBn
@@ -107,8 +105,7 @@ AdnBndAndBdaBn
 dAn
 
 Output 1
-</P>
-<p>
+
 Explanation 1
 
 The substrings are highlighted below.
@@ -120,8 +117,7 @@ AdnBndAndBdaBn
 AdnBndAndBdaBn
 
 AdnBndAndBdaBn
-</p>
-<p>
+
 Input 2
 
 AbrAcadAbRa
@@ -131,7 +127,7 @@ cAda
 Output 2
 
 2
-</P>
+
 <h1>
 Spiral
 </h1>
@@ -146,7 +142,7 @@ integers obtained by spiralling outward in an anti-clockwise direction from row 
 
 c, starting upward.
 </P>
-<p>
+
 Input 1
 
 5 5 3 3
@@ -154,13 +150,13 @@ Input 1
 Output 1
 
 13 8 7 12 17 18 19 14 9 4 3 2 1 6 11 16 21 22 23 24 25 20 15 10 5
-</p><p>
+
 Explanation 1
 
 The following graphics show the grid in question and the spiral generated, beginning at 
 
 cell (3,3).
-</P>
+
 
 1 2 3 4 5
 
@@ -171,7 +167,7 @@ cell (3,3).
 16 17 18 19 20
 
 21 22 23 24 25
-<P>
+
 Input 2
 
 2 4 1 2
@@ -179,7 +175,7 @@ Input 2
 Output 2
 
 2 1 5 6 7 3 8 4
-</P>
+
 Explanation 2
 
 1 2 3 4
@@ -210,7 +206,7 @@ M1,M2,M3 represent the minutes displayed (0 < M1,M2,M3 < 60). If the number of
 
 minutes is less than 10, a leading 0 is prepended.
 </P>
-<P>
+
 Input 1:
 
 3
@@ -228,4 +224,4 @@ The correct time is 5:00.
 The correct time is 12:30.
 
 Look at the sun.
-</P>
+
