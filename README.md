@@ -1,39 +1,21 @@
 # MyProject
 <h1>Balanced	Brackets</h1>
-
-Given a string consisting entirely of the characters ()[]{}, determine if it is "balanced". 
-
-That is, every opening bracket must have a closing bracket of the same type following it, 
-
-and the string in between the pair must also be balanced. For the purposes of the 
-
-problem, an empty string should be considered balanced.
-
-Input 1
-
-()[]{}(([])){[()][]}
-
-Output 1
-
-balanced
-
-Input 2
-
-())[]{}
-
-Output 2
-
-not balanced
-
-Input 3
-
-[(])
-
-Output 3
-
-not balanced
-
-CSV	Parsing
+<p>
+Given a string consisting entirely of the characters ()[]{}, determine if it is "balanced". That is, every opening bracket must have a closing bracket of the same type following it, and the string in between the pair must also be balanced. For the purposes of the problem, an empty string should be considered balanced.
+</p>
+<p>
+Input 1:()[]{}(([])){[()][]}
+Output 1:balanced
+</P>
+<p>
+Input 2:())[]{}
+Output 2:not balanced
+</P>
+<P>
+Input 3:[(])
+Output 3:not balanced
+</P>
+<h1>CSV	Parsing</h1>
 
 The input to this problem consists of a string of n comma-separated values, each value 
 
@@ -99,7 +81,7 @@ Output 3
 
 "comma,comma, comma , :)"
 
-Anagram Detection
+<h1>Anagram Detection</h1>
 
 You are given two strings, a ‘parent’ string and a ‘query’ string respectively. Your task is 
 
